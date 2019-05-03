@@ -1,0 +1,26 @@
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: rgb(34,181,195);
+    background: linear-gradient(0deg, rgba(34,181,195,1) 0%, rgba(45,253,174,1) 100%);
+    height: 100%;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto 0px;
+}
+
+span {
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+}
